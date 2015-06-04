@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+   
+    testCompile 'junit:junit'
+}
+
+ repositories {
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.2.1.RELEASE'
+    }
+}
