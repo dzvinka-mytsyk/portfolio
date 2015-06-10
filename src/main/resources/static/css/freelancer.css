@@ -457,3 +457,29 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.btn-download {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #18bc9c;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-download:hover,
+.btn-download:focus,
+.btn-download:active,
+.btn-download.active {
+    border: solid 2px #18bc9c;
+    color: #18bc9c;
+    background: #fff;
+}
+
+.btn-close {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.book-item {
+	margin: 30px 0;
+}
