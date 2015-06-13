@@ -180,7 +180,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #ffffff;
     background: #18bc9c;
 }
 
@@ -481,5 +481,12 @@ footer .footer-below {
 }
 
 .book-item {
-	margin: 30px 0;
+	margin: 0px 0px;
+	color: #18bc9c;
+	 border: solid 0px #D4D4CA;
+	 margin-top: 5px;
+	margin-bottom: 5px;
+	 padding-left: 5px;
+	 padding-right: 5px;
+	 text-align: center;
 }
