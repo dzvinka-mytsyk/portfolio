@@ -476,17 +476,23 @@ footer .footer-below {
 }
 
 .btn-close {
-	margin-top: 30px;
-	margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .book-item {
-	margin: 0px 0px;
-	color: #18bc9c;
-	 border: solid 0px #D4D4CA;
-	 margin-top: 5px;
-	margin-bottom: 5px;
-	 padding-left: 5px;
-	 padding-right: 5px;
-	 text-align: center;
+    margin: 10px 0;
+    color: #18bc9c;
+    text-align: center;
+}
+
+.book-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    height: 265px;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 40px;
 }
