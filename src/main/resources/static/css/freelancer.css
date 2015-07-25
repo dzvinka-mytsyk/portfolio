@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #59ABE3;
+    color: #95A5A6;
 }
 
 h1,
@@ -34,6 +34,15 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+h4.skill {
+    text-transform: none !important;
+    font-weight: 500 !important;
+}
+
+.skill.progress {
+    height: 15px;
 }
 
 header hr.star-light {
@@ -70,7 +79,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #59ABE3;
+    background-color: #95A5A6;
 }
 
 hr.star-primary {
@@ -89,7 +98,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #59ABE3;
+    background: #95A5A6;
 }
 
 header .container {
@@ -188,7 +197,7 @@ section h2 {
 
 section.success {
     color: #ffffff;
-    background: #59ABE3;
+    background: #95A5A6;
 }
 
 section.success a,
@@ -227,7 +236,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(89,171,227,.9);
+    background: rgba(149,165,166,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -281,7 +290,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #59ABE3;
+    color: #95A5A6;
     background: #fff;
 }
 
@@ -334,7 +343,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #59ABE3;
+    color: #95A5A6;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -466,9 +475,10 @@ footer .footer-below {
 }
 
 .btn-download {
+    border: solid 2px #95A5A6;
     margin-top: 15px;
     font-size: 20px;
-    color: #59ABE3;
+    color: #95A5A6;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -477,9 +487,9 @@ footer .footer-below {
 .btn-download:focus,
 .btn-download:active,
 .btn-download.active {
-    border: solid 2px #59ABE3;
-    color: #59ABE3;
-    background: #fff;
+    color: #ffffff;
+    background-color: #95A5A6;
+    border-color: #95A5A6;
 }
 
 .btn-close {
@@ -489,7 +499,7 @@ footer .footer-below {
 
 .book-item {
     margin: 10px 0;
-    color: #59ABE3;
+    color: #95A5A6;
     text-align: center;
 }
 
